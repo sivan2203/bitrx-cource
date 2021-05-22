@@ -1,0 +1,6 @@
+2021-05-22 08:56:44 -  - exec CUpdateClient::GetUpdatesList
+2021-05-22 08:56:44 -  - exec CUpdateClient::CollectRequestData
+2021-05-22 08:56:44 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.200.260&VERSION=20.200.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=localhost&CHHB=localhost%3A8888&CSAB=%3A%3A1&SUID=385a223661324ded9ce045b3751242b9&CANGZIP=Y&CLIENT_PHPVER=7.4.12&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.200.300&bitm_vote=20.100.100&bitm_ui=20.5.887&bitm_landing=20.4.850&bitm_mobileapp=20.5.0&bitm_form=20.100.0&bitm_perfmon=20.100.0&bitm_scale=20.5.0&bitm_highloadblock=20.100.0&bitm_security=20.200.0&bitm_translate=20.100.0&bitm_socialservices=20.0.500&bitm_photogallery=20.5.0&bitm_blog=20.100.100&bitm_clouds=20.100.0&bitm_search=20.5.0&bitm_iblock=20.0.1150&bitm_forum=20.5.0&bitm_subscribe=20.5.0&bitm_messageservice=20.100.0&bitm_bitrixcloud=20.5.0&bitm_seo=20.0.400&bitm_b24connector=20.5.0&bitm_rest=20.50.150&bitm_fileman=20.5.0&bitl_ru=&bitl_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-N
+2021-05-22 08:56:44 -  - exec CUpdateClient::GetHTTPPage
+2021-05-22 08:56:44 -  - TIME GetUpdatesList(request) 0.269 sec
+2021-05-22 08:56:44 -  - exec CUpdateClient::ParseServerData
