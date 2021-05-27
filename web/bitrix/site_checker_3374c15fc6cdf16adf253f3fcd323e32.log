@@ -1,175 +1,20 @@
-2021-May-22 09:01:49 Наличие необходимых модулей php (check_php_modules): Ok
+2021-May-27 08:05:26 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2021-May-22 09:01:50 Обязательные параметры PHP (check_php_settings): Ok
+2021-May-27 08:05:26 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2021-May-22 09:01:50 Модули веб-сервера (check_security): Warning
+2021-May-27 08:05:26 Модули веб-сервера (check_security): Warning
 Замечание. Загружен модуль mod_dav/mod_dav_fs, WebDav не будет работать
-2021-May-22 09:01:50 Значения переменных сервера (check_server_vars): Ok
+2021-May-27 08:05:26 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2021-May-22 09:01:51 Сохранение сессии (check_session): Ok
+2021-May-27 08:05:26 Сохранение сессии (check_session): Ok
 50% done
-2021-May-22 09:01:51 Сохранение сессии (check_session): Ok
-Успешно
-2021-May-22 09:01:51 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2021-May-27 08:05:26 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2021-May-22 09:01:51 Служебные скрипты в корне сайта (check_install_scripts): Fail
-Ошибка! Файл существует: bitrix_server_test.php
-
-2021-May-22 09:01:52 Работа с сокетами (check_socket): Ok
+2021-May-27 08:05:26 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2021-May-27 08:05:26 Работа с сокетами (check_socket): Ok
 Connection to localhost:8888	Success
 
 Успешно
-2021-May-22 09:01:52 Выполнение агентов на cron (check_bx_crontab): Warning
+2021-May-27 08:05:26 Выполнение агентов на cron (check_bx_crontab): Warning
 Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
-2021-May-22 09:01:52 Параметры подключения к базе данных (check_dbconn_settings): Ok
-Успешно
-2021-May-22 09:01:53 Лишний вывод в файлах конфигурации (check_dbconn): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:01:53 Сохранение сессии без UserAgent (check_session_ua): Ok
-50% done
-Connection to localhost:8888	Success
-
-2021-May-22 09:01:54 Сохранение сессии без UserAgent (check_session_ua): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:01:54 Настройки сайтов (check_sites): Ok
-Правильные
-2021-May-22 09:01:55 Передача объектов по ссылке (check_clone): Ok
-Успешно
-2021-May-22 09:01:55 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:01:55 Загрузка файла (check_upload): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:01:56 Загрузка файла больше 4Мб (check_upload_big): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:01:56 Загрузка файла через php://input (check_upload_raw): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:01:56 Передача POST запроса с большим числом параметров (check_post): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:01:58 Отправка почты (check_mail): Fail
-Ошибка! Не работает
-2021-May-22 09:01:59 Отправка почтового сообщения больше 64Кб (check_mail_big): Fail
-Ошибка! Не работает
-2021-May-22 09:01:59 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
-Успешно
-2021-May-22 09:02:00 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
-50% done
-Connection to localhost:8888	Success
-
-2021-May-22 09:02:00 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:02:00 Фактическое ограничение памяти (check_memory_limit): Ok
-20% done
-Connection to localhost:8888	Success
-
-2021-May-22 09:02:01 Фактическое ограничение памяти (check_memory_limit): Ok
-40% done
-Connection to localhost:8888	Success
-
-2021-May-22 09:02:01 Фактическое ограничение памяти (check_memory_limit): Ok
-60% done
-Connection to localhost:8888	Success
-
-2021-May-22 09:02:01 Фактическое ограничение памяти (check_memory_limit): Ok
-80% done
-Connection to localhost:8888	Success
-
-2021-May-22 09:02:02 Фактическое ограничение памяти (check_memory_limit): Ok
-Connection to localhost:8888	Success
-
-Не менее 256 М
-2021-May-22 09:02:02 Работа с файлами кеша (check_cache): Ok
-Успешно
-2021-May-22 09:02:03 Доступ к серверу обновлений (check_update): Ok
-Успешно
-2021-May-22 09:02:03 HTTP авторизация (check_http_auth): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:02:03 Создание и запуск файла (check_exec): Ok
-Connection to localhost:8888	Success
-
-Успешно
-2021-May-22 09:02:04 Функция getimagesize для swf (check_getimagesize): Ok
-Успешно
-2021-May-22 09:02:04 Версия MySQL-сервера (check_mysql_bug_version): Ok
-Успешно
-2021-May-22 09:02:05 Время на БД и веб-сервере (check_mysql_time): Fail
-Ошибка! Время отличается на 18000 секунд
-2021-May-22 09:02:05 Режим работы MySQL (check_mysql_mode): Fail
-Ошибка! innodb_strict_mode=ON, требуется OFF
-2021-May-22 09:02:05 Кодировка соединения (check_mysql_connection_charset): Ok
-character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
-Успешно
-2021-May-22 09:02:05 Кодировка базы данных (check_mysql_db_charset): Ok
-CHARSET=utf8, COLLATION=utf8_unicode_ci
-Успешно
-2021-May-22 09:02:06 Кодировки таблиц в БД (check_mysql_table_charset): Ok
-Успешно
-2021-May-22 09:02:07 Структура базы данных (check_mysql_table_structure): Ok
-0% done
-2021-May-22 09:02:07 Структура базы данных (check_mysql_table_structure): Ok
-4% done
-2021-May-22 09:02:09 Структура базы данных (check_mysql_table_structure): Ok
-8% done
-2021-May-22 09:02:09 Структура базы данных (check_mysql_table_structure): Ok
-12% done
-2021-May-22 09:02:10 Структура базы данных (check_mysql_table_structure): Ok
-16% done
-2021-May-22 09:02:11 Структура базы данных (check_mysql_table_structure): Ok
-20% done
-2021-May-22 09:02:11 Структура базы данных (check_mysql_table_structure): Ok
-24% done
-2021-May-22 09:02:12 Структура базы данных (check_mysql_table_structure): Ok
-28% done
-2021-May-22 09:02:12 Структура базы данных (check_mysql_table_structure): Ok
-32% done
-2021-May-22 09:02:13 Структура базы данных (check_mysql_table_structure): Ok
-36% done
-2021-May-22 09:02:14 Структура базы данных (check_mysql_table_structure): Ok
-40% done
-2021-May-22 09:02:14 Структура базы данных (check_mysql_table_structure): Ok
-44% done
-2021-May-22 09:02:15 Структура базы данных (check_mysql_table_structure): Ok
-48% done
-2021-May-22 09:02:15 Структура базы данных (check_mysql_table_structure): Ok
-52% done
-2021-May-22 09:02:16 Структура базы данных (check_mysql_table_structure): Ok
-56% done
-2021-May-22 09:02:17 Структура базы данных (check_mysql_table_structure): Ok
-60% done
-2021-May-22 09:02:19 Структура базы данных (check_mysql_table_structure): Ok
-64% done
-2021-May-22 09:02:20 Структура базы данных (check_mysql_table_structure): Ok
-68% done
-2021-May-22 09:02:20 Структура базы данных (check_mysql_table_structure): Ok
-72% done
-2021-May-22 09:02:20 Структура базы данных (check_mysql_table_structure): Ok
-76% done
-2021-May-22 09:02:25 Структура базы данных (check_mysql_table_structure): Ok
-80% done
-2021-May-22 09:02:26 Структура базы данных (check_mysql_table_structure): Ok
-84% done
-2021-May-22 09:02:26 Структура базы данных (check_mysql_table_structure): Ok
-88% done
-2021-May-22 09:02:27 Структура базы данных (check_mysql_table_structure): Ok
-92% done
-2021-May-22 09:02:27 Структура базы данных (check_mysql_table_structure): Ok
-96% done
-2021-May-22 09:02:28 Структура базы данных (check_mysql_table_structure): Ok
-Успешно

@@ -1,3 +1,4 @@
+
 <?
 include_once($_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/main/include/urlrewrite.php');
 
@@ -16,5 +17,6 @@ $APPLICATION->IncludeComponent("bitrix:main.map", ".default", Array(
 	"CACHE_TIME"	=>	"36000000"
 	)
 );
+echo(404);
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
