@@ -82,7 +82,7 @@ use Bitrix\Main\Page\Asset;
 </div>
 
 <!-- Шапка сайта (меню) -->
-<header id="sticky-header" class="header-area header-wrapper white-bg">
+<header id="sticky-header" class="header-area header-wrapper <?= ($APPLICATION->GetCurDir() === '/') ? 'transparent-header' : 'white-bg';?>">
     <!-- Меню (для десктопа) -->
     <div class="header-middle-area full-width">
         <div class="container">

@@ -14,15 +14,4 @@
     </div>
 <?php endif; ?>
 
-<!--<li>-->
-<!--    <a href="services.html"> Услуги-->
-<!--        <span class="indicator"><i class="fa fa-angle-down"></i></span></a>-->
-<!--    <ul class="dropdown">-->
-<!--        <li>-->
-<!--            <a href="services_landing.html">Лендинг</a>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <a href="services_online_shop.html">Интернет-магазин</a>-->
-<!--        </li>-->
-<!--    </ul>-->
-<!--</li>-->
+
