@@ -62,8 +62,26 @@ use Bitrix\Main\Page\Asset;
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <div class="welcome">
-                    <span><i class="fa fa-envelope"></i> admin@domain.com</span>
-                    <span><i class="fa fa-phone"></i> +012 345 6789</span>
+                    <span>
+                        <?$APPLICATION->IncludeComponent(
+                            "bitrix:main.include",
+                            "",
+                            Array(
+                                "AREA_FILE_SHOW" => "file",
+                                "PATH" => SITE_TEMPLATE_PATH."/includes/header_email.php",
+                            )
+                        );?>
+                    </span>
+                    <span>
+                            <?$APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                "",
+                                Array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "PATH" => SITE_TEMPLATE_PATH."/includes/header_phone.php",
+                                )
+                            );?>
+                    </span>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6">
@@ -190,26 +208,28 @@ use Bitrix\Main\Page\Asset;
 </header>
 
 <!-- Хлебные крошки (навигация) -->
-<div class="breadcrumb-area brand-bg ptb-100">
-    <div class="container width-100">
-        <div class="row z-index">
-            <div class="col-md-7 col-sm-6">
-                <div class="breadcrumb-title">
-                    <h2 class="white-text"><?= $APPLICATION->ShowTitle(false); ?></h2>
+<?php if($APPLICATION->GetCurDir() != '/'): ?>
+    <div class="breadcrumb-area brand-bg ptb-100">
+        <div class="container width-100">
+            <div class="row z-index">
+                <div class="col-md-7 col-sm-6">
+                    <div class="breadcrumb-title">
+                        <h2 class="white-text"><?= $APPLICATION->ShowTitle(false); ?></h2>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-5 col-sm-6">
-                <div class="breadcrumb-menu">
-                    <ol class="breadcrumb text-right">
-                        <li>
-                            <a href="index.html">Главная</a>
-                        </li>
-                        <li>
-                            <a href="#">О нас</a>
-                        </li>
-                    </ol>
+                <div class="col-md-5 col-sm-6">
+                    <div class="breadcrumb-menu">
+                        <ol class="breadcrumb text-right">
+                            <li>
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li>
+                                <a href="#">О нас</a>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+<?php endif; ?>
