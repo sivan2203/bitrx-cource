@@ -1,20 +1,20 @@
-2021-Jun-05 08:26:36 Наличие необходимых модулей php (check_php_modules): Ok
+2021-Jun-07 15:35:44 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2021-Jun-05 08:26:36 Обязательные параметры PHP (check_php_settings): Ok
+2021-Jun-07 15:35:44 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2021-Jun-05 08:26:36 Модули веб-сервера (check_security): Warning
+2021-Jun-07 15:35:44 Модули веб-сервера (check_security): Warning
 Замечание. Загружен модуль mod_dav/mod_dav_fs, WebDav не будет работать
-2021-Jun-05 08:26:36 Значения переменных сервера (check_server_vars): Ok
+2021-Jun-07 15:35:44 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2021-Jun-05 08:26:36 Сохранение сессии (check_session): Ok
+2021-Jun-07 15:35:44 Сохранение сессии (check_session): Ok
 50% done
-2021-Jun-05 08:26:36 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2021-Jun-07 15:35:44 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2021-Jun-05 08:26:36 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2021-Jun-07 15:35:44 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2021-Jun-05 08:26:36 Работа с сокетами (check_socket): Ok
+2021-Jun-07 15:35:45 Работа с сокетами (check_socket): Ok
 Connection to localhost:8888	Success
 
 Успешно
-2021-Jun-05 08:26:36 Выполнение агентов на cron (check_bx_crontab): Warning
+2021-Jun-07 15:35:45 Выполнение агентов на cron (check_bx_crontab): Warning
 Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
