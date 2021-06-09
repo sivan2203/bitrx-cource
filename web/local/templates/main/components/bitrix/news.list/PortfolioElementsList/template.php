@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 <?php if(!empty($arResult['ITEMS'])): ?>
 <div id="Container">
     <?php foreach($arResult['ITEMS'] as $arItem): ?>
-        <div class="col-md-4 col-sm-6 col-xs-12 mb-30 mix landing promo">
+        <div class="col-md-4 col-sm-6 col-xs-12 mb-30 mix <?= isset($arItem['SECTION_CODES']) ? $arItem['SECTION_CODES'] : ''; ?>">
             <div class="portfolio-wrapper portfolio-title">
                 <div class="portfolio-img">
                     <?php if($arItem['PREVIEW_PICTURE']['SRC']): ?>
